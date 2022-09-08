@@ -1,0 +1,28 @@
+From 5dd441921a3868023533fa6818b425660232cdad Mon Sep 17 00:00:00 2001
+From: Matthew Maurer <mmaurer@google.com>
+Date: Wed, 7 Sep 2022 16:10:32 -0700
+Subject: [PATCH] Use libheck 0.3.3
+
+Upstream has not yet migrated to 0.4.
+
+Change-Id: I0b7ccbb4b33ae77c88da6697562d0b7e8582e728
+---
+ Android.bp | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Android.bp b/Android.bp
+index 1d3fdfe..54e460b 100644
+--- a/Android.bp
++++ b/Android.bp
+@@ -29,7 +29,7 @@ rust_proc_macro {
+     edition: "2018",
+     rustlibs: [
+         "libargh_shared",
+-        "libheck",
++        "libheck_deprecated",
+         "libproc_macro2",
+         "libquote",
+         "libsyn",
+-- 
+2.37.2.789.g6183377224-goog
+
