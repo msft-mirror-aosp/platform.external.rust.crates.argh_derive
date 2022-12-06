@@ -1,5 +1,4 @@
 {
   "run": true,
-  "device": true,
-  "patch": "patches/0001-Use-libheck-0.3.3.patch"
+  "device": true
 }
