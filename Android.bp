@@ -25,7 +25,7 @@ rust_proc_macro {
     crate_name: "argh_derive",
     cargo_env_compat: true,
     cargo_pkg_version: "0.1.12",
-    srcs: ["src/lib.rs"],
+    crate_root: "src/lib.rs",
     edition: "2018",
     rustlibs: [
         "libargh_shared",
